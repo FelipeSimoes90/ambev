@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+h1{
+    font-size: 72px;
+    color: rgb(255, 200, 0);
+    text-align: center
+}
+h2{
+    font-size: 58px;
+    color: darkred;
+    text-align: center;
+}
+body{
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2016/08/cerveja-brahma-lata.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.titulo{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    padding: 70px;}
+
+.grupo1{
+    display: flex;
+    /*margin: 20px;*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#enchedora {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#enchedora:hover{
+    opacity: 1;   
+}
+/*classe criada para o nome na imagem
+.ech{
+    position:absolute;
+    top: 50%;
+    left: 10%;
+    background-color: ivory;
+}
+.ech:before{
+opacity: 1;
+}
+finaliza aqui*/
+#pasteurizador {
+    padding: 0;
+     /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#pasteurizador:hover{
+    opacity: 1;
+}
+#cip {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#cip:hover{
+    opacity: 1;
+}
+#transporte-de-latas {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#transporte-de-latas:hover{
+    opacity: 1;
+}/*
+.grupo2{
+    display: flex;
+    /*margin: 20px;
+    justify-content:stretch;
+    flex-wrap: wrap;
+}
+*/
+#empacotadora-shrink {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#empacotadora-shrink:hover{
+    opacity: 1;
+}
+#empacotadora-westrock {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#empacotadora-westrock:hover{
+    opacity: 1;
+}
+#paletizadora {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#paletizadora:hover{
+    opacity: 1;
+}
+#despaletizadora {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#despaletizadora:hover{
+    opacity: 1;
+}
+#transporte-de-pacotes {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#transporte-de-pacotes:hover{
+    opacity: 1;
+}
+#envolvedora {
+    padding: 0;
+    /*border: solid red 5px;*/
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor:pointer;
+}
+#envolvedora:hover{
+    opacity: 1;
+}
